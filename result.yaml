@@ -1,0 +1,22 @@
+title: Hello, World!
+description: これはJSON⇔YAML変換ツールのテスト用サンプルです。
+version: 1
+items:
+- id: 100
+  name: apple
+  price: 120
+  tags:
+  - fruit
+  - food
+- id: 101
+  name: banana
+  price: 80
+  tags:
+  - fruit
+  - tropical
+settings:
+  enabled: true
+  threshold: 0.75
+  options:
+    verbose: false
+    max_retries: 5
